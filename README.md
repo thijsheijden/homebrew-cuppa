@@ -6,7 +6,14 @@ This is the official Homebrew tap for [Cuppa](https://github.com/thijsheijden/cu
 
 ```bash
 brew tap thijsheijden/cuppa
-brew install cuppa
+brew install --force cuppa
+```
+
+If you get a database error on first run, remove the corrupted DB and restart:
+
+```bash
+rm ~/Library/Application\ Support/com.cuppa.cuppa/cuppa.db  # macOS
+rm ~/.local/share/cuppa/cuppa.db                             # Linux
 ```
 
 ## Updating
