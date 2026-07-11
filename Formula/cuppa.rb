@@ -1,8 +1,8 @@
 class Cuppa < Formula
   desc "Cuppa: Coffee Tracking TUI with Git Based Sync"
   homepage "https://github.com/thijsheijden/cuppa"
-  url "https://github.com/thijsheijden/cuppa/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "d04d9985088978c7ea818efc38a16c0d9c366973f6780bc3aa46a1e0a6e04f1b"
+  url "https://github.com/thijsheijden/cuppa/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "ad9057bdaec90386915f9425173ec30a74d0ff802497560ee8f78be16baa771f"
   license "MIT"
 
   depends_on "rust" => :build
